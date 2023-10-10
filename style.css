@@ -90,7 +90,7 @@
     flex-wrap: wrap;
     padding: 0 15px;
     max-width: 1250px;
-    margin: 50px 0;
+    margin: 50px auto;
     justify-content: center;
 }
 .image-gallery .image-card {
@@ -165,4 +165,9 @@
     .image-gallery .image-card:not(.loading) .download-btn{
         display: flex;
     }
+}
+@media screen  and (max-width: 500px) {
+  .image-gallery .image-card {
+    width: 100%;
+  }
 }
